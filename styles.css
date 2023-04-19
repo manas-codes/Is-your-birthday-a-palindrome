@@ -93,23 +93,6 @@ h1{
     margin-top: 1rem;
     max-height: 30vh;
 }
-/* .output{
-    padding-top: 0.5rem;
-    width: 100%; 
-    max-width: 659px;
-    max-height: 53px;
-    text-align: center;
-    font-size: 1.5rem;
-    font-weight: 500;
-    font-family:'Chivo Mono', monospace ;
-    color: #00494d;
-    background-color:#d3f0f0;
-    box-shadow: 5px 5px 10px rgb(218, 218, 218);
-    border: 2px solid transparent;
-    border-radius: 5px;
-    outline: none;
-    overflow: hidden;
-} */
 #loading-img{
     margin: auto;
     height: 38vh;

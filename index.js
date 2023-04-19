@@ -6,6 +6,14 @@ var palindrome = document.querySelector('#tell-palindrome')
 var mainApp = document.querySelector('#content')
 var finalResult = document.querySelector('#final-result')
 var loadingImg = document.querySelector('#loading-img')
+const mainLink = document.querySelector("#main-link");
+      mainLink.addEventListener("click", function(event) {
+        event.preventDefault();
+        const targetSection = document.querySelector("#content");
+        if (targetSection) {
+          targetSection.scrollIntoView({ behavior: "smooth" });
+        }
+      });
 
 var monthDays = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
 
